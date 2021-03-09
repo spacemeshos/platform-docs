@@ -119,7 +119,7 @@ As in Bitcoin and other blockchain platforms, a Spacemesh transaction pays a fee
 
 #### Mining rewards
 
-Time in Spacemesh is divided into fixed-length units of time called [layers and epochs](../README.md#spacemesh-basics). An epoch consists of a fixed number of layers. Each layer is five minutes long and contains a set of blocks.
+Time in Spacemesh is divided into fixed-length units of time called [layers and epochs](../overview.md#spacemesh-basics). An epoch consists of a fixed number of layers. Each layer is five minutes long and contains a set of blocks.
 
 The Spacemesh protocol distributes 50 Smesh (SMH) (subject to the Smesh minting schedule) to the miners who contributed blocks to each layer. The amount of the reward paid to each miner depends on the number of blocks contributed by that miner, and on the total number of blocks contributed in that layer. A miner that contributes more blocks receives more reward.
 
