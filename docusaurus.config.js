@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Spacemesh Platform Docs',
   tagline: 'A proof of space blockmesh',
-  url: 'https://platform.spacemesh.io',
+  url: 'https://spacemeshos.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'favicon.png',
   organizationName: 'spacemeshos', // Usually your GitHub org/user name.
-  projectName: 'platform-docs', // Usually your repo name.
+  projectName: 'spacemeshos.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
