@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://spacemeshos.github.io/blog</id>
+    <id>https://platform.spacemesh.io/blog</id>
     <title>Spacemesh Platform Docs Blog</title>
     <updated>2015-10-25T23:29:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://spacemeshos.github.io/blog"/>
+    <link rel="alternate" href="https://platform.spacemesh.io/blog"/>
     <subtitle>Spacemesh Platform Docs Blog</subtitle>
-    <icon>https://spacemeshos.github.io/favicon.png</icon>
+    <icon>https://platform.spacemesh.io/favicon.png</icon>
 </feed>
