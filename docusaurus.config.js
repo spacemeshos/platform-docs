@@ -80,7 +80,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/spacemeshos/platform-docs',
+            'https://github.com/spacemeshos/platform-docs/blob/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
