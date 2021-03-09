@@ -2,7 +2,7 @@ module.exports = {
   title: 'Spacemesh Platform Docs',
   tagline: 'A proof of space blockmesh',
   url: 'https://spacemeshos.github.io',
-  baseUrl: '/',
+  baseUrl: '/platform-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'favicon.png',
