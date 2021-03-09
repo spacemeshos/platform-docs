@@ -10,18 +10,12 @@ module.exports = {
   projectName: 'platform-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '',
+      title: 'Spacemesh Platform',
       logo: {
         alt: 'Spacemesh',
-        src: 'logo_black.png',
+        src: 'favicon.png',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
         {
           type: 'docsVersionDropdown',
           position: 'left',
