@@ -1,7 +1,7 @@
 ---
 id: platform
 title: Spacemesh Platform Documentation
-sidebar_label: Platform
+sidebar_label: Welcome
 slug: /
 ---
 

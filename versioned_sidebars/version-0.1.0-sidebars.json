@@ -1,5 +1,9 @@
 {
   "version-0.1.0/someSidebar": [
+     {
+         "type": "doc",
+         "id": "version-0.1.0/platform"
+     },
     {
       "collapsed": true,
       "type": "category",
