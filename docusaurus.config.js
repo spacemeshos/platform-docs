@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'throw',
   favicon: 'favicon.png',
   organizationName: 'spacemeshos', // Usually your GitHub org/user name.
-  projectName: 'spacemeshos.github.io', // Usually your repo name.
+  projectName: 'platform-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
