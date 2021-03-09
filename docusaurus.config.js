@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Spacemesh Platform Docs',
   tagline: 'A proof of space blockmesh',
-  url: 'https://spacemeshos.github.io',
+  url: 'https://platform.spacemesh.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -79,7 +79,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/spacemeshos/platform-docs',
           showLastUpdateAuthor: true,
