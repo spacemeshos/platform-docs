@@ -33,11 +33,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'platform',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Testnet',
+              to: 'https://spacemesh.io/testnet',
+            },
+            {
+              label: 'Code',
+              to: 'https://github.com/spacemeshos',
             },
           ],
         },
