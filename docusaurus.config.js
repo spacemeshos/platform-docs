@@ -33,15 +33,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'platform',
+          title: 'Explore',
           items: [
             {
               label: 'Testnet',
               to: 'https://spacemesh.io/testnet',
             },
             {
-              label: 'Code',
-              to: 'https://github.com/spacemeshos',
+              label: 'Web',
+              to: 'https://spacemesh.io',
             },
           ],
         },
@@ -50,7 +50,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/spacemesh',
+              href: 'http://chat.spacemesh.io',
             },
             {
               label: 'Twitter',

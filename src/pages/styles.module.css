@@ -35,3 +35,11 @@
   height: 200px;
   width: 200px;
 }
+
+.mainImage {
+    width: 50%;
+}
+
+.spacer {
+    height: 100px;
+}

@@ -5,7 +5,11 @@ sidebar_label: Welcome
 slug: /
 ---
 
-## Available Documentation Sets (Version 0.1.0)
+## Available Documentation Sets
 
 - [Protocol Docs](protocol/overview.md)
 - [API Docs](api/overview.md)
+
+## Additional Docs
+
+- [Testnet Guide](https://testnet.spacemesh.io)

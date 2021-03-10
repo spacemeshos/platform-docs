@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import ThemedImage from '@theme/ThemedImage';
 
 function Home() {
   const context = useDocusaurusContext();
@@ -14,12 +15,16 @@ function Home() {
       title={`Spacemesh Platform Docs`}
       description="Description will go into a meta tag in <head />">
       <main className={clsx('hero hero--primary', styles.heroBanner)}>
+
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className="text--center">
-            <img className={styles.featureImage} src={'transparentbg.gif'} />
-          </div>
+        <div className={styles.buttons}>
+        <ThemedImage alt="Spacemesh" className={styles.mainImage}
+          sources={{
+            light: useBaseUrl('/banner_white.png'),
+            dark: useBaseUrl('/banner_black.png'),
+          }}
+        /></div>
+          <h1 className="hero__title">Platform Docs</h1>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -29,6 +34,7 @@ function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
+            <div className={styles.spacer}></div>
           </div>
         </div>
       </main>
