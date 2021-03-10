@@ -23,6 +23,7 @@ P2P is the perfect architecture for blockchain since it provides a means to conn
 Each peer must discover and connect to one or more peers in order to pass messages to and from the network. Peer to peer architecture usually connects nodes in a mesh topology. Each node knows and communicates with some number of peers, but does not need to connect directly to all other nodes in the network in order to communicate with them (indeed, in any network of even modest size, this would quickly become impossible as the number of required connections grows exponentially). Specifically in the context of blockchain, it is in fact desirable that a single node _not_ know too many other nodes (e.g., their IP address and port) in order that a malicious node could not discover and attack too many other nodes.
 
 <a name="discovery"></a>
+
 ### Bootstrap and Peer Discovery
 
 Nodes need a mechanism, called discovery, that allows them to find and connect to peers. In order for a new node to discover peers and join the network, it needs to know the address of at least one other node (called a bootstrap node) at system startup. The new node queries the bootstrap node for a list of other nodes to connect to. After connecting to a bootstrap node, additional discovery takes place, where the newly added peers are queried for additional nodes as well. Each node maintains a local list of peers that it has learned of, known as an "address book": after the node is restarted, or if it loses a peer connection, it can refer to its address book to find peers to connect to, thus bypassing the bootstrap phase. Note that, in order to prevent an [eclipse attack](https://www.radixdlt.com/post/what-is-an-eclipse-attack/), it's important that a node regularly perform peer discovery with nodes that it's not currently connected to.
@@ -32,6 +33,7 @@ Nodes need a mechanism, called discovery, that allows them to find and connect t
 Nodes also need a way to exchange messages with other nodes. This usually involves broadcasting a message to every node in the network, and, in turn, receiving such broadcast messages, a subprotocol called [gossip](#gossip). However, it is also useful to be able to exchange messages with a specific peer (usually, only one that the node is directly connected to, i.e., a "neighbor"). Therefore we need a messaging protocol that allows messages to traverse the network and reach all nodes, or one specific "neighbor" node.
 
 <a name="authentication"></a>
+
 ### Peer Authentication
 
 To prevent fraud and to prevent one node from performing malicious activities while masquerading as another node, we also require a peer authentication system. Similar to the mechanism that's used in cryptocurrency wallets, these systems are usually based on public-private keypairs. Each peer generates a keypair and advertises its public key (which may or may not be distinct from the keypair used in the wallet), which can be used to encrypt messages intended for it. The keys can also be used to sign messages to prove that they originated from the holder of the private key.
