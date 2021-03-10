@@ -2,7 +2,7 @@
 module.exports = {
   someSidebar: {
         'Platform' : ['platform'],
-        'Protoocl': [
+        'Protocol': [
             'protocol/overview',
             'protocol/p2p/overview',
             {'Consensus': ['protocol/consensus/overview', 'protocol/consensus/deepdive']},
