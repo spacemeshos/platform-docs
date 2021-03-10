@@ -16,7 +16,7 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 
-  font-family: "NeubauGrotesk" ,sans-serif;
+  font-family: "Source Code Pro" ,monospace;
 }
 
 .docusaurus-highlight-code-line {
@@ -24,4 +24,8 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
 }
