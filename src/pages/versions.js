@@ -20,7 +20,7 @@ function Version() {
       title="Versions"
       description="Docusaurus 2 Versions page listing all documented site versions">
       <main className="container margin-vert--lg">
-        <h1>Spacemesh Platform Documentation Cersions</h1>
+        <h1>Spacemesh Platform Documentation Versions</h1>
 
         {latestVersion && (
           <div className="margin-bottom--lg">
