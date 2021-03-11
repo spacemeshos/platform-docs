@@ -9,6 +9,18 @@ module.exports = {
   organizationName: 'spacemeshos', // Usually your GitHub org/user name.
   projectName: 'platform-docs', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '46f7f56c2fa8fd9cd947eb1ac390b0bb',
+      indexName: 'spacemesh',
+
+      // Optional: see doc section bellow
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
     navbar: {
       title: 'Spacemesh Platform',
       logo: {
