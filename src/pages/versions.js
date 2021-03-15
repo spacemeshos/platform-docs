@@ -18,7 +18,7 @@ function Version() {
   return (
     <Layout
       title="Versions"
-      description="Docusaurus 2 Versions page listing all documented site versions">
+      description="Spacemesh Platform docs versions page listing all documented site versions">
       <main className="container margin-vert--lg">
         <h1>Spacemesh Platform Documentation Versions</h1>
 
@@ -71,7 +71,7 @@ function Version() {
             <h3 id="archive">Past versions (Not maintained anymore)</h3>
             <p>
               Here you can find documentation for previous versions of
-              Docusaurus.
+              the Spacemesh platform.
             </p>
             <table>
               <tbody>

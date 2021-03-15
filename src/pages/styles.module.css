@@ -8,8 +8,17 @@
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
-  position: relative;
   overflow: hidden;
+  background-image: url('/waves.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex: 1 0 auto;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 966px) {
