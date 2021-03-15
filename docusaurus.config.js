@@ -26,6 +26,7 @@ module.exports = {
       logo: {
         alt: 'Spacemesh',
         src: 'favicon.png',
+        href: '/docs'
       },
       items: [
         {
