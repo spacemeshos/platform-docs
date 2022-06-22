@@ -21,27 +21,6 @@ module.exports = {
 
       //... other Algolia params
     },
-    navbar: {
-      title: 'Spacemesh Platform',
-      logo: {
-        alt: 'Spacemesh',
-        src: 'favicon.png',
-        href: '/docs'
-      },
-      items: [
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
-
-          // Add additional dropdown items at the beginning/end of the dropdown.
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-
-          // Do not add the link active class when browsing docs.
-          dropdownActiveClassDisabled: true,
-        },
-      ],
-    },
     footer: {
       style: 'dark',
       links: [
