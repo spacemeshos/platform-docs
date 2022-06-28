@@ -9,18 +9,6 @@ module.exports = {
   organizationName: 'spacemeshos', // Usually your GitHub org/user name.
   projectName: 'platform-docs', // Usually your repo name.
   themeConfig: {
-    algolia: {
-      apiKey: '46f7f56c2fa8fd9cd947eb1ac390b0bb',
-      indexName: 'spacemesh',
-
-      // Optional: see doc section bellow
-      contextualSearch: true,
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
-    },
     navbar: {
       title: 'Spacemesh Platform',
       logo: {
@@ -28,19 +16,6 @@ module.exports = {
         src: 'favicon.png',
         href: '/docs'
       },
-      items: [
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
-
-          // Add additional dropdown items at the beginning/end of the dropdown.
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-
-          // Do not add the link active class when browsing docs.
-          dropdownActiveClassDisabled: true,
-        },
-      ],
     },
     footer: {
       style: 'dark',
