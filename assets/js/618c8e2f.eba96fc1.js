@@ -1,0 +1,1 @@
+(self.webpackChunksm_platform_docs=self.webpackChunksm_platform_docs||[]).push([[701],{8082:function(e){"use strict";e.exports=JSON.parse('{"pluginId":"default","version":"0.1.0","label":"0.1.0","isLast":true,"docsSidebars":{"version-0.1.0/someSidebar":[{"type":"link","label":"Welcome","href":"/docs/"}]},"permalinkToSidebar":{"/docs/":"version-0.1.0/someSidebar"}}')}}]);
