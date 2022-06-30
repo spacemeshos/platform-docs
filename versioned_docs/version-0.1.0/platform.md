@@ -7,6 +7,8 @@ slug: /
 
 This site is currently undergoing maintenance.
 
-## Additional Docs
+## Additional Resources
 
+- [Spacemesh Homepage](https://spacemesh.io)
 - [Testnet Guide](https://testnet.spacemesh.io)
+- [Discord](https://chat.spacemesh.io)
